@@ -22,4 +22,10 @@ public class ChatsEndpoint {
         return daoChat.getAllChats(id);
     }
 
+    @POST
+    @Consumes(MediaType.APPLICATION_JSON)
+    public void createNewChat (Chat chat) throws SQLException {
+        daoChat.makeNewChat(chat.getUsers(), chat.getTitle());
+    }
+
 }

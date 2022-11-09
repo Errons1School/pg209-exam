@@ -85,7 +85,10 @@ public class DaoChatTest {
         assertThat(result.get(5).getTitle())
                 .as("Check that new Chat title is Group chat number 2")
                 .isEqualTo("Group chat number 2");
+
     }
+
+
 
 
 

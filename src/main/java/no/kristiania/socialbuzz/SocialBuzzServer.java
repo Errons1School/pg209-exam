@@ -66,7 +66,6 @@ public class SocialBuzzServer {
 
     }
 
-
     public void start() throws Exception {
         server.start();
         logger.warn("Server is starting on {}", getURL());
