@@ -1,5 +1,6 @@
 
 [![Java CI with Maven](https://github.com/kristiania-pgr209-2022/pg209exam-freebattie/actions/workflows/maven.yml/badge.svg)](https://github.com/kristiania-pgr209-2022/pg209exam-freebattie/actions/workflows/maven.yml)
+[![Build and deploy JAR app to Azure Web App](https://github.com/kristiania-pgr209-2022/pg209exam-freebattie/actions/workflows/azuredep.yml/badge.svg)](https://github.com/kristiania-pgr209-2022/pg209exam-freebattie/actions/workflows/azuredep.yml)
 ![coverage](.github/badges/jacoco.svg)
 
 # [Link til azure deployment](http://pgr209-exam-socialbuzz-user.azurewebsites.net/)
