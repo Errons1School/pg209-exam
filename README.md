@@ -1,7 +1,5 @@
 
-[![Java CI with Maven](https://github.com/kristiania-pgr209-2022/pg209exam-freebattie/actions/workflows/maven.yml/badge.svg)](https://github.com/kristiania-pgr209-2022/pg209exam-freebattie/actions/workflows/maven.yml)
-
-[![Java CI with Maven on Dev Branch](https://github.com/kristiania-pgr209-2022/pg209exam-freebattie/actions/workflows/devy.yml/badge.svg)](https://github.com/kristiania-pgr209-2022/pg209exam-freebattie/actions/workflows/devy.yml)
+[![Java CI with Maven](https://github.com/kristiania-pgr209-2022/pg209exam-freebattie/actions/workflows/maven.yml/badge.svg)](https://github.com/kristiania-pgr209-2022/pg209exam-freebattie/actions/workflows/maven.yml)![coverage](.github/badges/jacoco.svg)[![Java CI with Maven on Dev Branch](https://github.com/kristiania-pgr209-2022/pg209exam-freebattie/actions/workflows/devy.yml/badge.svg)](https://github.com/kristiania-pgr209-2022/pg209exam-freebattie/actions/workflows/devy.yml)
 
 # [Link til azure deployment](http://pgr209-exam-socialbuzz-user.azurewebsites.net/)
 
