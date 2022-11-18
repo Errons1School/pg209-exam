@@ -16,7 +16,7 @@ export function NewChat({activeUserId,users}) {
     const [selectedUsersName, setSelectedUsersName] = useState([]);
     const [selectedUserId, setSelectedUserId] = useState("");
     const [selectedUserName, setSelectedUserName] = useState("");
-    const [title, setTitle] = useState("");
+    const [title, setTitle] = useState("Chat");
     useEffect(() => {
 
 
