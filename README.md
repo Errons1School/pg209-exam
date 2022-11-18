@@ -40,7 +40,7 @@ Tidspunkt eksempler med enkel stil:
 * Autodeploy til auzer sever med bruk av Github Actions
 * Serveren benytter GET, PUSH, PUT og DELETE
 * Redirect til forsiden ved bruk av ugyldig url
-* Implementert live logging på azure som lagrer til fil
+* Implementert live logging på azure som lagrer til fil (Eksempel fil hentet fra azure ligger i `documents/server logs.txt`)
 
 # Beskriv hvordan programmet skal testes, hvis lokalt:
 * Maskinen må ha docker og jdk 17 installert på forhånd!
@@ -71,7 +71,7 @@ Class-diagram fra java-classes i socialbuzz
 
 * [x] Dere har lest eksamensteksten
 * [x] Koden er sjekket inn på github.com/pg209-2022 repository
-* [ ] Dere har lastet opp en ZIP-fil lastet ned fra Github
+* [x] Dere har lastet opp en ZIP-fil lastet ned fra Github
 * [x] Dere har committed kode med begge prosjektdeltagernes GitHub-konto (alternativt: README beskriver hvordan dere har jobbet)
 
 ## README.md
