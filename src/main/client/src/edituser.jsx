@@ -9,9 +9,10 @@ export function EditUser({activeUserId,setUpdate}) {
     const [username, setUsername] = useState("");
     const [tlf, setTlf] = useState("");
     const [emails, setEmails] = useState([]);
-
+    const [topText, setTopText] = useState("");
     useEffect( () => {
         const test = async ()=>{
+
             const res = await fetch("/api/users/"+activeUserId);
 
             const editUser = await res.json()
@@ -20,16 +21,20 @@ export function EditUser({activeUserId,setUpdate}) {
             setUsername(editUser.username)
             setTlf(editUser.tlf)
             setEmails(editUser.emails)
+            setTopText("Edit User")
+
 
 
             setLoading(false);
         }
         if (activeUserId>0){
             test()
+
         }
         else{
             //GET NEW USER
             setLoading(false)
+            setTopText("Add User")
         }
 
     }, []);
@@ -160,15 +165,15 @@ export function EditUser({activeUserId,setUpdate}) {
         if (activeUserId > 0)
             navigate("/user")
         else{
-            history.push('/');
-            window.location.reload(false);
+            navigate('/');
+            window.location.reload(true);
         }
 
     }
 
     return (
         <div>
-           <center><div className={"editUserTilte"}>EDIT USER!</div></center>
+           <center><div className={"editUserTilte"}>{topText}</div></center>
             <center>
             <form onSubmit={handleOnSubmit}>
                 <div className={"border"}>
