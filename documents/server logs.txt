@@ -1,0 +1,36 @@
+
+11:39:56.038 [main] [WARN ] [no.kristiania.socialbuzz.SocialBuzzServer]: Server is starting on http://10.0.0.4:33419/
+11:39:56.196 [qtp28597262-31] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/"
+11:39:56.196 [qtp28597262-31] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 200
+11:39:56.246 [qtp28597262-21] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/assets/index.ee692cec.js"
+11:39:56.256 [qtp28597262-21] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 200
+11:39:56.306 [qtp28597262-25] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/assets/index.767f3491.css"
+11:39:56.306 [qtp28597262-25] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 200
+11:39:56.366 [qtp28597262-24] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/favicon.ico"
+11:39:56.366 [qtp28597262-24] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 302
+11:39:56.696 [qtp28597262-20] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/api/users"
+11:39:56.696 [qtp28597262-20] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 200
+11:39:56.726 [qtp28597262-25] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/assets/Logo.28e5b7f9.png"
+11:39:56.746 [qtp28597262-25] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 200
+11:41:52.713 [qtp28597262-23] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/"
+11:41:52.713 [qtp28597262-23] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 304
+11:41:52.775 [qtp28597262-25] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/assets/index.ee692cec.js"
+11:41:52.775 [qtp28597262-25] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 304
+11:41:52.775 [qtp28597262-26] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/assets/index.767f3491.css"
+11:41:52.791 [qtp28597262-26] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 304
+11:41:52.884 [qtp28597262-25] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/api/users"
+11:41:52.884 [qtp28597262-25] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 200
+11:41:52.900 [qtp28597262-25] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/favicon.ico"
+11:41:52.900 [qtp28597262-25] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 302
+11:41:52.931 [qtp28597262-26] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/assets/Logo.28e5b7f9.png"
+11:41:52.931 [qtp28597262-26] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 304
+11:44:25.721 [qtp28597262-21] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/favicon.ico"
+11:44:25.721 [qtp28597262-21] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 302
+11:44:25.737 [qtp28597262-26] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/api/users"
+11:44:25.737 [qtp28597262-26] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 200
+11:44:30.706 [qtp28597262-27] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/api/users"
+11:44:30.706 [qtp28597262-27] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 200
+11:44:30.815 [qtp28597262-24] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/favicon.ico"
+11:44:30.815 [qtp28597262-24] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 302
+11:44:31.034 [qtp28597262-26] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Request  Method: GET "/"
+11:44:31.034 [qtp28597262-26] [INFO ] [no.kristiania.socialbuzz.SocialBuzzServer]: Response Code from Server: 200
