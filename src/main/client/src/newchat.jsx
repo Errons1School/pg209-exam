@@ -32,7 +32,9 @@ export function NewChat({activeUserId,users}) {
     async function handelOnSubmit(e){
 
         e.preventDefault();
-       
+       if (title.length < 1){
+           setTitle("Chat")
+       }
         await fetch("/api/chats", {
             method: "POST",
             body: JSON.stringify({userIdList:selectedUsersId,title:title}),
