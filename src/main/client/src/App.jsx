@@ -41,9 +41,8 @@ function App() {
     }
     const setUserTo = (e)=>{
         setActiveUserId(e.target.value)
-        setActiveUserName(e.target.options[e.target.value].text)
-        console.log(e.target.value)
-        console.log(e.target.options[e.target.value].text)
+        setActiveUserName(users[e.target.value])
+
     }
     return (
         <div className="App">
