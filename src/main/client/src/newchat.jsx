@@ -2,6 +2,15 @@ import {useEffect, useState} from "react";
 import {useNavigate} from "react-router-dom";
 
 export function NewChat({activeUserId,users}) {
+    const navigate = useNavigate()
+
+    function handelNavigate(e) {
+        e.preventDefault()
+        navigate("/user")
+
+    }
+
+
     const [dropdownUsers, setDropdownUsers] = useState([]);
     const [selectedUsersId, setSelectedUsersId] = useState([]);
     const [selectedUsersName, setSelectedUsersName] = useState([]);
@@ -17,7 +26,7 @@ export function NewChat({activeUserId,users}) {
 
         setDropdownUsers(filteredusers);
     }, []);
-    const navigate = useNavigate()
+
     let selectUsers = [...users];
    
     async function handelOnSubmit(e){
@@ -97,7 +106,7 @@ export function NewChat({activeUserId,users}) {
                 })}
 
             </div>
-
+            <button className={"button"} onClick={(e)=>handelNavigate(e)}>Back</button>
             <button className={"button"} onClick={(e)=>handelOnSubmit(e)}>Start Chat</button>
 
 
