@@ -42,7 +42,7 @@ export function EditUser({activeUserId,setUpdate}) {
         return  <h1>LOADING ..</h1>
     }
     async function handleOnSubmit(event) {
-        console.log("username"+username)
+
 
         event.preventDefault();
         if (username.length < 2){
@@ -71,22 +71,27 @@ export function EditUser({activeUserId,setUpdate}) {
                 navigate("/user");
         }
         else{
-            const tmp={
-                id_user: -1,
-                name,
-                username,
-                tlf,
-                emails:emails
-            }
-            const user = JSON.stringify(tmp)
-            const test= await fetch("/api/users", {
-                method: "POST",
+            if (username.length < 2){
 
-                body: user,
-                headers: {
-                    "Content-Type": "application/json"
+            }else{
+                const tmp={
+                    id_user: -1,
+                    name,
+                    username,
+                    tlf,
+                    emails:emails
                 }
-            });
+                const user = JSON.stringify(tmp)
+                const test= await fetch("/api/users", {
+                    method: "POST",
+
+                    body: user,
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+                });
+            }
+
             setUpdate(true);
             navigate("/");
 
