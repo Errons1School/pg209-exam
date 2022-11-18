@@ -43,7 +43,6 @@ public class DataSourceFilter implements Filter {
 //              Remove closed connection at HikariCP after each get/put/post/delete
                 logger.info("Request  Method: {} \"{}\"", req.getMethod(), req.getRequestURI());
 
-
                 connection.close();
                 config.cleanRequestConnection();
                 logger.info("Response Code from Server: {}", res.getStatus());
