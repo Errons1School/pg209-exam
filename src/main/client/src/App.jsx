@@ -3,7 +3,7 @@ import './App.css';
 
 import {FrontPage} from "./frontpage";
 import {UserPage} from "./userpage";
-import {HashRouter, Route, Router, Routes, useNavigate} from "react-router-dom";
+import {HashRouter, Route, Router, Routes} from "react-router-dom";
 import {createHashHistory} from 'history';
 import {useEffect, useState} from "react";
 import {EditUser} from "./edituser.jsx";
@@ -30,6 +30,7 @@ function App() {
 
             setUsers(await res.json());
             setLoading(false);
+
         }
         test();
     }, [update]);
@@ -39,9 +40,14 @@ function App() {
             <div>Loading...</div>
         )
     }
+    console.log(users)
     const setUserTo = (e)=>{
         setActiveUserId(e.target.value)
-        setActiveUserName(users[e.target.value])
+        let user =users.filter((u)=>{
+            return u.id_user == e.target.value;
+        })
+        console.log(user[0])
+        setActiveUserName(user[0].username)
 
     }
     return (

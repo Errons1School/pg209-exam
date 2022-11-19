@@ -127,7 +127,7 @@ export function EditUser({activeUserId,setUpdate}) {
 
             const res = await fetch("/api/users/emails");
             const newid = await res.json();
-            console.log(newid);
+
             const id = JSON.stringify(activeUserId);
             await fetch("/api/users/emails/",{
                 method: 'POST',
@@ -188,7 +188,7 @@ export function EditUser({activeUserId,setUpdate}) {
                     username:<input className="write-message" placeholder="Enter a Username" value={username} type="text" onChange={(e) => setUsername(e.target.value)}/>
                 </div>
                 <div className={"border"}>
-                    tlf:<input className="write-message" placeholder="Enter a phone nr" value={tlf} type="text" onChange={(e) => setTlf(e.target.value)}/>
+                    tlf:<input className="write-message" placeholder="Enter a phone nr" value={tlf} type="number" onChange={(e) => setTlf(e.target.value)}/>
                 </div>
                 <br/>
 

@@ -46,7 +46,7 @@ export function Chat({chat, activeUserId, messages,setMessages}) {
 
     async function handelOnSubmit(e) {
         e.preventDefault();
-        console.log("chat is" +chat)
+
         await fetch("/api/messages", {
             method: "POST",
             body: JSON.stringify({message:myMessage,idChat:chat.id_chat,user:activeUserId}),
